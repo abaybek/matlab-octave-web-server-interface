@@ -11,7 +11,7 @@ local _TCP_ and _web_ server and opens a connected web browser window
 which accepts Matlab and Octave commands as input. Plots are
 translated via the Plotly Javascript library into Html graphs.
 
-![Matlab Octave Web Browser and Server Interface](https://raw.githubusercontent.com/precisesimulation/octave-matlab-web-interface/matlab-octave-web-browser-and-server-interface.jpg)
+![Matlab Octave Web Browser and Server Interface](https://raw.githubusercontent.com/precisesimulation/octave-matlab-web-interface/master/matlab-octave-web-browser-and-server-interface.jpg)
 
 
 Installation

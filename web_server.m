@@ -45,7 +45,7 @@ switch( action )
 
     tcp = tcp_server();
     fprintf( 1, '\nWeb server started on http://127.0.0.1:%i\n\n', tcp.port );
-    l_browser( ['http://127.0.0.1:',num2str(tcp.port)] );
+    % l_browser( ['http://127.0.0.1:',num2str(tcp.port)] );
 
   case 2       % Stop.
     out = tcp_server( 'close' );

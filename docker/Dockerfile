@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y octave default-jre git vim && apt-get c
 
 RUN mkdir /var/www && cd /var/www && git clone https://github.com/precisesimulation/matlab-octave-web-server-interface.git .
 
-EXPOSE 4000
+ADD install.sh /var/www/install.sh
+WORKDIR "/var/www"
 
-CMD ["octave"]
+CMD ["bash", "install.sh"]
